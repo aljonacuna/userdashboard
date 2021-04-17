@@ -4,7 +4,8 @@
 		
 		//signup saving data process
 		public function save_user($post) {
-			/*check if this users table is empty it's empty make the user admin*/
+			/*check if the users table is empty, if it's empty 
+			make the first created user an admin*/
 			$is_admin = 0;
 			if ($this->get_rows() == 0) {
 				$is_admin = 9;
