@@ -244,7 +244,7 @@
 		}
 
 
-		/* to check if user the  input an invalid name like numbers on their name  */
+		/* to check if the user input an invalid name like numbers on their name  */
 		public function is_name_has_number($fname, $lname) {
 		$isValid = true;
 		$fname_valid = preg_match('/[0-9]/', $fname);
