@@ -1,0 +1,6 @@
+ RewriteEngine On
+ RewriteBase /userdashboard
+  RewriteCond $1 !^(index\.php|assets|images|css|js|robots\.txt|favicon\.ico)  
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ /userdashboard/index.php?/$1 [L,QSA]

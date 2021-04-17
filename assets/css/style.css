@@ -1,0 +1,228 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.error{
+	color: red;
+	text-align: center;
+}
+#social{
+	margin-top: 10px;
+}
+#hero-unit{
+	width: 60%;
+	margin: 60px 0px 0px 200px;
+}
+
+.first-col, .second-col, .third-col{
+	width: 25%;
+	display: inline-block;
+	margin-left: 70px;
+}
+.login-content, .register-content, .createuser-content{
+	border: 1px solid #ccc;
+	width: 40%;
+	margin: 50px 0px 20px 350px;
+	padding: 10px;
+}
+.dashboard-content, .edit-content{
+	margin: 50px 0px 0px 100px;
+}
+.editinfo-form, .edit-auth, .add-desc, .edit-auth-profile{
+	border: 1px solid #ccc;
+	padding: 10px 0px 10px 60px;
+	
+}
+.add-desc{
+	margin-top: 40px;
+	width: 90%; 
+}
+.desc{
+	width: 95%;
+	height: 100px;
+	margin-top: 20px;
+}
+.editinfo-form, .edit-auth , .edit-auth-profile{
+	display: inline-block;
+	width: 40%;
+}
+.edit-auth{
+	vertical-align: 170px;
+	margin-left: 30px;
+}
+.edit-auth-profile{
+	vertical-align: 90px;
+	margin-left: 30px;
+}
+.login-h2, .reg-h2{
+	text-align: center;
+	color: black;
+}
+label{
+	display: block;
+	margin-top: 20px;
+}
+.email, .password, .fname, .lname, .cpassword{
+	width: 80%;
+	height: 30px;
+}
+.email-log-sec, .pass-log-sec{
+	margin-left: 100px;
+}
+.login-btn{
+	padding: 5px 30px;
+	margin: 20px 0px 0px 100px;
+}
+.label-signup, .signup-link, .label-signin, .signin-link{
+	display: inline-block;
+}
+.label-signup, .label-signin{
+	margin-left: 150px;
+}
+.reg-form{
+	margin-left: 50px;
+}
+.reg-btn, .save-btn, .update-btn{
+	display: block;
+	padding: 5px 30px;
+	background-color: green;
+	color: white;
+}
+table{
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px 0px 10px 90px;
+	width: 80%;
+}
+td{
+	text-align: center;
+}
+table,td,th{
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+table tr:nth-child(2n+3){
+	background-color: #ddd;
+
+}
+.edit-link{
+	border-right: 1px solid black;
+}
+.edit-link, .del-link{
+	padding: 3px 10px;
+}
+.lbl-manage{
+	margin-left: 100px;
+}
+.lbl-manage, .add-link, .back-link, .createuser-h2{
+	display: inline-block;
+}
+.add-link, .back-link{
+	background-color: blue;
+	padding: 3px 20px;
+	color: white;
+}
+.add-link{
+	margin-left: 630px;
+}
+.back-link{
+	margin-left: 130px;
+}
+.createuser-h2{
+	margin-left: 10px;
+}
+.main-content, .post-msg{
+	width: 80%;
+	margin-left: 170px;
+	padding: 10px;
+}
+.comment-bx, .message-bx{
+	width: 70%;
+	height: 50px;
+}
+.message-bx{
+	margin-left: 50px;
+}
+.comment-bx{
+	margin-left: 80px;
+}
+.comment-form{
+	margin: 20px 0px 0px 18px;
+}
+.msg-btn{
+	margin-left: 650px;
+	padding: 3px;
+	background-color: blue;
+	color: white;
+}
+.comment-btn{
+	margin-left: 660px;
+	padding: 3px;
+	background-color: green;
+	color: white;
+}
+.author-date-msg, .author-date-comment{
+	font-weight: bolder;
+	font-size: 14px;
+}
+.author-date-msg, .del{
+	display: inline-block;
+}
+.label-postmsg, .label-postcomment{
+	font-size: 18px;
+	font-weight: bold;
+}
+.label-postmsg{
+	margin: 5px 0px 0px 50px;
+}
+.label-postcomment, .message-text{
+	margin: 10px 0px 0px 50px;
+}
+.author-date-comment{
+	margin: 5px 0px 0px 110px;
+}
+.author-date-msg{
+	margin: 5px 0px 0px 50px;
+}
+
+.message-text , .comment-text{
+	width: 50%;
+	border: 1px solid #ccc;
+	padding: 20px 150px 20px 20px;
+}
+.message_at{
+	margin-left: 320px;
+}
+.comment_at{
+	margin-left: 380px;
+}
+.author-date-comment, .del-comment{
+	display: inline-block;
+}
+.comment-text{
+	margin: 10px 0px 0px 110px;
+}
+.header{
+	margin: 50px 0px 30px 230px;
+}
+
+.name-lbl, .name, .desc-lbl, .desc{
+	display: inline-block;
+	font-size: 20px; 
+}
+.no, .yes{
+	padding: 10px 20px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+.no{
+	background-color: blue;
+				color: white;
+}
+.yes{
+	background-color: red;
+	color: white;
+}
+.title-toconfirm{
+	text-align: center;
+}
