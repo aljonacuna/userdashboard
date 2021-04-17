@@ -227,7 +227,7 @@
 			return $this->db->query("SELECT * from users WHERE id = ?",array($id))->row_array();
 		}
 
-		/* check if the specific exist we can use this for signing up */
+		/* check if the specific users already exist we can use this for signing up */
 		public function isExist($email) {
 			$query = $this->db->query("SELECT * from users WHERE email = ?",array($email));
 			return $query->num_rows();
@@ -244,7 +244,7 @@
 		}
 
 
-		/* to check if user input invalid name like numbers on their name  */
+		/* to check if user the  input an invalid name like numbers on their name  */
 		public function is_name_has_number($fname, $lname) {
 		$isValid = true;
 		$fname_valid = preg_match('/[0-9]/', $fname);
